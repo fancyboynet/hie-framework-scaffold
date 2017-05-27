@@ -34,3 +34,16 @@ hie运行框架脚手架
     @www.route('/')
     def index():
         return FIS.render_template('www:page/index/index.html', title='index')
+
+## 目录说明
+
+1. static和templates是Flask默认的放静态资源和模板的目录
+2. static-src为开发源码目录,可以为任意名字,每个子目录代表一个应用
+
+    static-src
+    |-www
+    |  |-page
+    |  |-widget
+    |  |-fis-config.js
+    |-m
+       
